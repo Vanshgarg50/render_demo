@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy as np
-
 # Load only the model (no scaler)
 model = pickle.load(open("model.pkl", "rb"))
 
